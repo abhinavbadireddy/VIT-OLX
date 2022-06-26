@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #F6F9FF;
+    z-index: 10;
+}
+
+.nav1 {
+    padding: 20px 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-btn {
+    color: #F6F9FF;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFA4A4;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #EA7979;
+}
+
+.signup-btn {
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #F6F9FF;
+    border: none;
+    cursor: pointer;
+}
+
+.nav2 {
+    padding: 5px 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    background-color: #E1E5EF;
+    border-radius: 30px;
+}
+
+.search-box {
+    width: 500px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E1E5EF;
+    outline: none;
+}
+
+.search-box::placeholder {
+    color: #9FABC9;
+    font-weight: 500;
+}
+
+.search-icon {
+    color: #9FABC9;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E1E5EF;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #121316;
+}
+
+.nav-links:hover {
+    color: #535867;
+}
+
+.nav-icon {
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 620px) {
+    .search-box {
+        width: 250px;
+    }
+}
