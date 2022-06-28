@@ -106,7 +106,16 @@
 
             <div class="book-options">
                 <button class="book-now">Book Now</button>
-                <button class="bag">Add to Bag</button>
+                <button class="bag" onclick="launch_toast()">Add to Bag</button>
+            </div>
+        </div>
+
+        <div id="toast">
+            <div id="img">
+                <img src="imgs/notif.png" alt="" class="notif-img">
+            </div>
+            <div id="desc">
+                Successfully added to bag!
             </div>
         </div>
     </section>
@@ -184,6 +193,8 @@
             <div class="cc">Made by Mozilla Firefox Club VIT</div>
         </div>
     </footer>
+
+    <script src="notif.js"></script>
     
 </body>
 </html>
